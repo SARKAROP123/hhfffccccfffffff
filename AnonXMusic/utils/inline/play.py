@@ -61,15 +61,15 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
 		[
          InlineKeyboardButton(
-		 text="🕸️ ᴛᴧᴘ тᴏ sᴇᴇ ᴍᴧɢɪᴄ 🕸️", url=f"https://t.me/professor_sukoon_bot?startgroup=true"
+		 text="🕸️ ᴛᴧᴘ тᴏ sᴇᴇ ᴍᴧɢɪᴄ 🕸️", url=f"https://t.me/ll_RADHA_MUSICBOT?startgroup=true"
 	 ),
         ],
         [
          InlineKeyboardButton(
-                text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢", url=f"https://t.me/Professor_network"
+                text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢", url=f"https://t.me/TG_NAME_STYLE"
             ),
             InlineKeyboardButton(
-                text="𝐏𝐑𝚯𝐅𝐄𝐒𝐒𝚯𝐑", url=f"https://t.me/SOURABH_100RABH"
+                text="🔥︻┻┳═सरकार🔥", url=f"https://t.me/ll_SARKAR_MERA_BABU_ll"
           ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -81,10 +81,10 @@ def stream_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢", url=f"https://t.me/Professor_network"
+                text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢", url=f"https://t.me/TG_NAME_STYLE"
             ),
             InlineKeyboardButton(
-                text="𝐏𝐑𝚯𝐅𝐄𝐒𝐒𝚯𝐑", url=f"https://t.me/sourabh_100rabh"
+                text="🔥︻┻┳═सरकार🔥", url=f"https://t.me/ll_SARKAR_MERA_BABU_ll"
           ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
