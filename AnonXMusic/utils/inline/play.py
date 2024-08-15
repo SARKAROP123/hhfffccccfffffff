@@ -69,7 +69,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢", url=f"https://t.me/TG_NAME_STYLE"
             ),
             InlineKeyboardButton(
-                text="🔥︻┻┳═सरकार🔥", url=f"https://t.me/ll_SARKAR_MERA_BABU_ll"
+                text="🔥𝗦𝗔𝗥𝗞𝗔𝗥🔥", url=f"https://t.me/ll_SARKAR_MERA_BABU_ll"
           ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -84,7 +84,7 @@ def stream_markup(_, chat_id):
                 text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢", url=f"https://t.me/TG_NAME_STYLE"
             ),
             InlineKeyboardButton(
-                text="🔥︻┻┳═सरकार🔥", url=f"https://t.me/ll_SARKAR_MERA_BABU_ll"
+                text="🔥𝗦𝗔𝗥𝗞𝗔𝗥🔥", url=f"https://t.me/ll_SARKAR_MERA_BABU_ll"
           ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
