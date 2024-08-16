@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("23523169"))
+API_HASH = getenv("7c3c56210947d7eb82e2a077b4f5c8c5")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6474377482:AAFEoSjtvL-NbrYejz8fXAKyrdvDJG4c1VE")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://Tksop:Tksop@sarkar.h3aht1y.mongodb.net/?retryWrites=true&w=majority")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 240))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 24000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1001645282995"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7374531519))
+OWNER_ID = int(getenv("OWNER_ID", 7125564027))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SARKAROP123/hhfffccccfffffff",
+    "https://github.com/SARKAROP123/PROFESORPRprivate",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQFm72EAYH-btFfQEvtapxZG7bKJiEV-pRImaLw18IiHN40OTCD0znsMktWNoAOUQV4TyC13b3CqHwoOLVuqLG4qeciQgdc-K8dX-f5J1Njl0A36vAyxzPXkjHpvvVOpGIj2ETsf8Tr87z5Gid1H1p3yebfntWxrrVDnGezHu19YG07tPak01rG_YXypoutjluY5xMPB2oGvCBwcNGjoXRjYZVdqhDgJm_EvItZlBPlaxwWTT_a390IpUL1Jdn_fjZv7WTHGQebwQlT9PwUlWMuZh97E-R-UL3yD9NFNccn1rB8o0Z91zwCH4BMlrNZYf6Gx8Lc1ZcGev1rNOHVkjKsXGBX2TgAAAAG3DrBPAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -113,4 +113,4 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-        )
+)
